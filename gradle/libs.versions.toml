@@ -1,0 +1,36 @@
+[versions]
+agp = "8.3.1"
+appcompatV7 = "28.0.0"
+colorpickerLibrary = "1.1.10"
+core = "0.9.6.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+library = "1.2.5"
+libraryVersion = "1.2.4"
+lottie = "6.4.0"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+
+[libraries]
+appcompat-v7 = { module = "com.android.support:appcompat-v7", version.ref = "appcompatV7" }
+colorpicker-library = { module = "petrov.kristiyan:colorpicker-library", version.ref = "colorpickerLibrary" }
+core = { module = "com.afollestad.material-dialogs:core", version.ref = "core" }
+design = { module = "com.android.support:design", version.ref = "appcompatV7" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+library = { module = "com.pes.materialcolorpicker:library", version.ref = "library" }
+library-v124 = { module = "com.pes.materialcolorpicker:library", version.ref = "libraryVersion" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+support-v4 = { module = "com.android.support:support-v4", version.ref = "appcompatV7" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
